@@ -129,8 +129,8 @@ STATIC_ROOT = os.path.join(BASE_DIR , 'static')
 STATIC_URL = '/static/'
 
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR , 'ksre/static')
-    os.path.join(BASE_DIR, 'static', 'ksre')
+    os.path.join(BASE_DIR , 'ksre/static'),
+    os.path.join(BASE_DIR, 'static', 'ksre'),
 ]
 
 # Media Folder Settings
