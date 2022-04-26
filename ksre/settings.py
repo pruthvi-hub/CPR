@@ -71,11 +71,15 @@ WSGI_APPLICATION = 'ksre.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'ksre',
-        'USER' : 'postgres',
-        'PASSWORD' : '########',
-        'HOST' : 'localhost'
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME':os.path.join(BASE_DIR, 'db.sqlite3'),
+
+        # 'ENGINE': 'django.db.backends.mysql',
+        # 'NAME': 'foodMania',  # name of the database
+        # 'USER': 'root',
+        # 'PASSWORD': '',
+        # 'HOST': 'localhost',
+        # 'PORT': '3306',
     }
 }
 
