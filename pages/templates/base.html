@@ -9,7 +9,7 @@
     <link rel="title icon" type="image/png" href="{% static 'img/KS.ico' %}"/>
 
     <!-- Font Awesome -->
-    <link rel="stylesheet" href= "{% static '../css/all.css' %}">
+    <link rel="stylesheet" href= "{% static '../css/all.css'?v=1 %}">
     <!-- Bootstrap -->
     <link rel="stylesheet" href= "{% static '../css/bootstrap.css' %}">
     <!-- Custom -->
@@ -33,10 +33,10 @@
     {% include 'partials/_footer.html'%}
 
 
-    <script src="{% static '../js/jquery-3.3.1.min.js' %} "></script>
-    <script src="{% static '../js/bootstrap.bundle.min.js' %} "></script>
-    <script src="{% static '../js/lightbox.min.js' %} "></script>
-    <script src="{% static '../js/main.js' %} "></script>
+    <script src="{% static '../js/jquery-3.3.1.min.js'?v=1 %} "></script>
+    <script src="{% static '../js/bootstrap.bundle.min.js'?v=1 %} "></script>
+    <script src="{% static '../js/lightbox.min.js'?v=1 %} "></script>
+    <script src="{% static '../js/main.js'?v=1 %} "></script>
 
 </body>
 </html>
