@@ -12,8 +12,8 @@ STATIC_DIR=os.path.join(BASE_DIR,'static')
 SECRET_KEY = 'tq2er8qxd7szzqd*nm1z!w4#46_7fi7vcmyz%0kqo6ad(h^unv'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-#ALLOWED_HOSTS = ['f7acb2982ce244e995484307639b11b3.vfs.cloud9.eu-west-2.amazonaws.com']
-ALLOWED_HOSTS = ['real-env.eba-knareest.eu-west-2.elasticbeanstalk.com']
+ALLOWED_HOSTS = ['f7acb2982ce244e995484307639b11b3.vfs.cloud9.eu-west-2.amazonaws.com']
+#ALLOWED_HOSTS = ['real-env.eba-knareest.eu-west-2.elasticbeanstalk.com']
 
 
 # Application definition
@@ -124,7 +124,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 
-STATIC_ROOT = 'static'
+#STATIC_ROOT = 'static'
 
 STATIC_URL = '/static/'
 
